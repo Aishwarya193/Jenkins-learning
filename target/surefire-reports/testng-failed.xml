@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="logExample.BaseTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- logExample.BaseTest -->
+      <class name="TestNGExample.TestNGExample_Annotation">
+        <methods>
+          <include name="AfterClass"/>
+          <include name="BeforeMethod"/>
+          <include name="BeforeTest"/>
+          <include name="payment"/>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+          <include name="BeforeClass"/>
+          <include name="AfterTest"/>
+          <include name="addItem"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- TestNGExample.TestNGExample_Annotation -->
+      <class name="SelectExample.BaseTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- SelectExample.BaseTest -->
+      <class name="TestNGExample.BaseTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- TestNGExample.BaseTest -->
+      <class name="testcases.dashboardSearchCustomerTest">
+        <methods>
+          <include name="verifydashboard"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.dashboardSearchCustomerTest -->
+      <class name="TestNGExample.TestNGExample_PriorityExample">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="verifyLogout"/>
+          <include name="verifyAddItem"/>
+          <include name="verifyLogin"/>
+          <include name="verifySearchItem"/>
+          <include name="verifyCancelOrder"/>
+          <include name="verifyPayment"/>
+        </methods>
+      </class> <!-- TestNGExample.TestNGExample_PriorityExample -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="verifyLoginFeature"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="TestNGExample.AmazonTest">
+        <methods>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- TestNGExample.AmazonTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

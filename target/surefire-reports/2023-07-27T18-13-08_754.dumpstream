@@ -1,0 +1,5 @@
+# Created at 2023-07-27T18:13:09.024
+Boot Manifest-JAR contains absolute paths in classpath 'D:\testing _frm_cmd\com.ibm.banking.afternoon\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
